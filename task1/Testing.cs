@@ -60,7 +60,7 @@ namespace task1
             list.Insert(1, "abcd");
         }
 
-        //Вставка в связаный лист по индексу
+        //Вставка в связаный список по индексу
         public static void LinkedListByIndex(LinkedList<string> list)
         {
             int counter = 0;

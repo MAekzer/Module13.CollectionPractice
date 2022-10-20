@@ -5,27 +5,24 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task1", "task1\task1.csproj", "{6B764028-A09C-40E9-A8E3-C4A124CB9509}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestListByValue", "task1.TestListByValue\TestListByValue.csproj", "{166DE1CC-4329-4A9A-BF7E-C0D8AB28ED6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestListByIndex", "TestListByIndex\TestListByIndex.csproj", "{19A57F97-1C08-4A92-BBDB-E2BFBC92636F}"
 	ProjectSection(ProjectDependencies) = postProject
 		{6B764028-A09C-40E9-A8E3-C4A124CB9509} = {6B764028-A09C-40E9-A8E3-C4A124CB9509}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestListByIndex", "TestListByIndex\TestListByIndex.csproj", "{19A57F97-1C08-4A92-BBDB-E2BFBC92636F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestLinkedListByValue", "TestLinkedListByValue\TestLinkedListByValue.csproj", "{7539AE8B-302B-483A-96DD-92A11A063AE3}"
 	ProjectSection(ProjectDependencies) = postProject
 		{6B764028-A09C-40E9-A8E3-C4A124CB9509} = {6B764028-A09C-40E9-A8E3-C4A124CB9509}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLinkedListByValue", "TestLinkedListByValue\TestLinkedListByValue.csproj", "{7539AE8B-302B-483A-96DD-92A11A063AE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestLinkedListByIndex", "TestLinkedListByIndex\TestLinkedListByIndex.csproj", "{EEAE4EB6-B8EC-49E6-BAE0-57A8D5329CBF}"
 	ProjectSection(ProjectDependencies) = postProject
 		{6B764028-A09C-40E9-A8E3-C4A124CB9509} = {6B764028-A09C-40E9-A8E3-C4A124CB9509}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLinkedListByIndex", "TestLinkedListByIndex\TestLinkedListByIndex.csproj", "{EEAE4EB6-B8EC-49E6-BAE0-57A8D5329CBF}"
-	ProjectSection(ProjectDependencies) = postProject
-		{6B764028-A09C-40E9-A8E3-C4A124CB9509} = {6B764028-A09C-40E9-A8E3-C4A124CB9509}
-	EndProjectSection
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task2", "task2\task2.csproj", "{7E9DC3B3-F550-4396-8AA0-5D8B8DC5824A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task2", "task2\task2.csproj", "{7E9DC3B3-F550-4396-8AA0-5D8B8DC5824A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestListByValue", "TestListByValue\TestListByValue.csproj", "{1501D652-B081-473B-9A5B-04F64375C263}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,10 +34,6 @@ Global
 		{6B764028-A09C-40E9-A8E3-C4A124CB9509}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B764028-A09C-40E9-A8E3-C4A124CB9509}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B764028-A09C-40E9-A8E3-C4A124CB9509}.Release|Any CPU.Build.0 = Release|Any CPU
-		{166DE1CC-4329-4A9A-BF7E-C0D8AB28ED6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{166DE1CC-4329-4A9A-BF7E-C0D8AB28ED6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{166DE1CC-4329-4A9A-BF7E-C0D8AB28ED6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{166DE1CC-4329-4A9A-BF7E-C0D8AB28ED6B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{19A57F97-1C08-4A92-BBDB-E2BFBC92636F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{19A57F97-1C08-4A92-BBDB-E2BFBC92636F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19A57F97-1C08-4A92-BBDB-E2BFBC92636F}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -57,6 +50,10 @@ Global
 		{7E9DC3B3-F550-4396-8AA0-5D8B8DC5824A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E9DC3B3-F550-4396-8AA0-5D8B8DC5824A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E9DC3B3-F550-4396-8AA0-5D8B8DC5824A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1501D652-B081-473B-9A5B-04F64375C263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1501D652-B081-473B-9A5B-04F64375C263}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1501D652-B081-473B-9A5B-04F64375C263}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1501D652-B081-473B-9A5B-04F64375C263}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
