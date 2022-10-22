@@ -1,6 +1,4 @@
-﻿using BenchmarkDotNet.Running;
-
-namespace task1
+﻿namespace task1
 {
     public class Program
     {

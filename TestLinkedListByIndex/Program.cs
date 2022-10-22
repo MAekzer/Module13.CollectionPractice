@@ -9,7 +9,7 @@ namespace TestLinkedListByIndex
         {
             var linkedlist = Testing.GetLinkedList();
 
-            for (int i = 0 ; i < 100; i++)
+            for (int i = 0; i < 100; i++)
             {
                 var watch = Stopwatch.StartNew();
                 Testing.LinkedListByIndex(linkedlist);

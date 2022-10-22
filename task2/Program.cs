@@ -1,5 +1,4 @@
-﻿using Microsoft.Diagnostics.Runtime.DacInterface;
-using task1;
+﻿using task1;
 
 namespace task2
 {
